@@ -1,9 +1,9 @@
 class SpatialHashMap<T> {
-  private int cellWidth;
-  private int cellHeight;
-  private int cellsW;
-  private int cellsH;
-  private ArrayList<T> grid[];
+  private final int cellWidth;
+  private final int cellHeight;
+  private final int cellsW;
+  private final int cellsH;
+  private final ArrayList<T> grid[];
   
   class GridCoord {
     int x;
